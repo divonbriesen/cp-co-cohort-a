@@ -37,7 +37,6 @@ h2 {
   margin-top: 0;
 <<<<<<< HEAD
 =======
-  margin-bottom: 20px;
 >>>>>>> 7ae71a8498a1e8491c2776f1bcfbae9576d0ad33
   font-family: serif;
   color: darkgoldenrod;
@@ -57,7 +56,6 @@ a {
 
 a:hover {
   color: #ef6351;
-  text-decoration: underline;
 
 }
 
@@ -72,11 +70,6 @@ h2 {
 }
 h3 {
   text-align: center;
-  font-size: 300%;
-}
-
-nav {
-  margin-top: 15px;
 }
 
 header {
