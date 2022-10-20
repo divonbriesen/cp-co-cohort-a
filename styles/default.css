@@ -1,0 +1,155 @@
+/*
+COLOR SCHEME: 
+
+a very nice blue: #0ACDFF
+
+BACKGROUND: #6F7D8C
+HEADER / FOOTER: #2D232E
+PRIMARY TEXT: #F1F0EA
+HYPERLINK: #F38375
+HYPERLINK-HOVER: #EF6351
+*/
+
+
+body {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  background-color: darkslategray;
+  color: aliceblue;
+  margin: 0;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.25);
+}
+
+header {
+  text-align: center;
+  background-color: #2d232e;
+}
+h2 {
+  text-align: center;
+  color: darkgoldenrod;
+  font-family: serif;
+  font-size: 400%;
+  margin-bottom: 5%;
+}
+
+.create-opp-blurb {
+
+  padding: 0 20%;
+  margin-top: 0;
+<<<<<<< HEAD
+=======
+  margin-bottom: 20px;
+>>>>>>> 7ae71a8498a1e8491c2776f1bcfbae9576d0ad33
+  font-family: serif;
+  color: darkgoldenrod;
+}
+
+main {
+  padding: 0 160px;
+}
+figcaption {
+  font-style: italic;
+  padding-top: 20px;
+}
+a {
+  color: #f38375;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ef6351;
+  text-decoration: underline;
+
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+h3 {
+  text-align: center;
+  font-size: 300%;
+}
+
+nav {
+  margin-top: 15px;
+}
+
+header {
+  height: 80px;
+  width: 100%;
+  padding: 10px;
+}
+footer {
+  background-color: #2d232e;
+  height: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 20px;
+}
+footer p {
+  color: #f38375;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+li {
+  margin-bottom: 10px;
+}
+section {
+  padding: 20px 100px;
+  margin: 0 auto;
+
+  max-width: 1400px;
+}
+nav {
+  text-align: center;
+}
+img {
+  border-radius: 5px;
+}
+strong {
+  color: darkgoldenrod;
+}
+#index-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.team-pic {
+  margin-bottom: 50px;
+}
+
+#personal-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+<<<<<<< HEAD
+
+HEAD{
+  margin-bottom: 10%;
+=======
+p{
+  padding: 0 10%;
+>>>>>>> 7ae71a8498a1e8491c2776f1bcfbae9576d0ad33
+}
+
+
+
+
