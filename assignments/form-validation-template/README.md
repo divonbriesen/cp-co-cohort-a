@@ -1,0 +1,2 @@
+# Form Validation Starter
+Use the index.html and basic-validation.html files as a starting point for your form validation project. Your code should be able to work with either of these files. You should not have to change them in order to make your validation work. 

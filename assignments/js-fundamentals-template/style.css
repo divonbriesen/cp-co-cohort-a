@@ -1,0 +1,86 @@
+* {
+    color: #1B3E77;
+    font-family: "Quicksand";
+}
+
+@media only screen and (min-width:992px) {
+    body {
+        margin: auto;
+        width: 992px;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    body {
+        margin: auto;
+        width: 1200px;
+    }
+}
+
+h1 {
+    color: #F78D34;
+    float: none;
+    font-size: 40px;
+    text-align: left;
+}
+
+img {
+    float: right;
+    margin: 10px 100px 10px auto;
+    width: 200px;
+}
+
+section {
+    margin-top: 2.5em;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul.test-results {
+    list-style-type: none;
+}
+
+em {
+    color: #F78D34;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.submit {
+    background-color: #F3BF64;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 5px 15px;
+}
+
+.submit:hover {
+    background-color: #F78D34;
+}
+
+.test-results {
+    list-style-type: lower-roman;
+}
+
+.requirement-block {
+    margin-left: 2em;
+    min-height: 90px;
+}
+
+.hidden {
+    display: none;
+}
+
+.success-icon {
+    color: green;
+}
+
+.success > .failure-icon {
+    display: none;
+}
+
+.failure > .success-icon {
+    display: none;
+}

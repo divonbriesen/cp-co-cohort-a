@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Word Search</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="./images/icon.png">
+  <script src="index.js" defer></script>
+</head>
+
+<body>
+  <div class='container'>
+    <div>
+      <h1 class='centered'>JavaScript WordSearch</h1>
+      <div>
+        <h3>Enter grid dimensions</h3>
+        <label for='width'>Width:</label>
+        <input id='width' type='number' min='3' max='100'>
+        <label for='height'>Height:</label>
+        <input id='height' type='number' min='3' max='100'>
+      </div>
+      <div>
+        <h3>Word Bank</h3>
+        <ul id='next-word-list'></ul>
+      </div>
+      <div>
+        <input id='new-word' type='text' minlength='3' placeholder="enter word">
+        <div id='add-word' class="icon"><i class="fa fa-plus"></i></div>
+      </div>
+      <div id="feedback"></div>
+      <div>
+        <button type='submit' id='create'>create</button>
+      </div>
+    </div>
+    <div>
+      <table id='word-search'>
+
+      </table>
+    </div>
+    
+  </div>
+</body>
+
+</html>

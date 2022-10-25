@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Fundamentals Exercise</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./images/icon.png">
+    <script src="index.js" defer></script>
+    <script src="tests.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>JS Fundamentals Exercise</h1>
+        <div><img src="./images/logo.png" alt="Catalyte Logo" /></div>
+    </header>
+    <main>
+        <section>
+            <h2>Instructions</h2>
+            <p>Follow the instructions in <em>index.js</em> to complete this exercise. As you make changes, make sure to <em>save your file and refresh this page</em></p>
+            <p>The following sections show the results of your work. Make sure everything has a &#10004; before submitting! If you see a &#10060;, then that requirement is not met. Click the Test button to see the results. If you see any test cases without a &#10004; or an &#10060;, it means you have an Error. Open your console to see more information.</p>
+            <button class="submit">Test</button>
+        </section>
+        <section>
+            <h2>Creating a Data Model</h2>
+            <div class="requirement-block" id="1">
+                <h3 class="requirement">1. Create an object named "applicant1"</h3>
+                <ul class="test-results hidden">
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>applicant1 is declared</li>
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>applicant1 is an object</li>
+                </ul>
+            </div>
+            <div class="requirement-block" id="2">
+                <h3 class="requirement">2. Add a "name" field to applicant1, and assign it a string value of your choosing</h3>
+                <ul class="test-results hidden">
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>applicant1 has a name property</li>
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>name property is a string value</li>
+                </ul>
+            </div>
+            <div class="requirement-block" id="3">
+                <h3 class="requirement">3. Add an "age" field to applicant1, and assign it a number between 0 and 122</h3>
+                <ul class="test-results hidden">
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>applicant1 has an age property</li>
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>age property is an integer between 0 and 122</li>
+                </ul>
+            </div>
+            <div class="requirement-block" id="4">
+                <h3 class="requirement">4. Add a "programStatus" field to applicant1, and assign it a string value of one of the following: ['Applied', 'Accepted', 'Active', 'Completed', 'Dismissed', 'Rejected']</h3>
+                <ul class="test-results hidden">
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>applicant1 has a programStatus property</li>
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>programStatus property is a string of one of the specified options</li>
+                </ul>
+            </div>
+            <div class="requirement-block" id="5">
+                <h3 class="requirement">5. Add an "address" field to applicant1, and assign it to an object with the following value:
+                    {
+                        state: 'MD',
+                        city: 'Baltimore',
+                        zipCode: 21201
+                    }</h3>
+                <ul class="test-results hidden">
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>applicant1 has an address property</li>
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>address property is an object with the correct values</li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <h2>Accessing Data from an Object</h2>
+            <div class="requirement-block" id="6">
+                <h3 class="requirement">6. Uncomment the line that properly accesses applicant1's name</h3>
+                <ul class="test-results hidden">
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>name property is properly accessed</li>
+                </ul>
+            </div>
+            <div class="requirement-block" id="7">
+                <h3 class="requirement">7. Uncomment the line that properly accesses applicant1's age</h3>
+                <ul class="test-results hidden">
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>age property is properly accessed</li>
+                </ul>
+            </div>
+            <div class="requirement-block" id="8">
+                <h3 class="requirement">8. Uncomment the line that properly accesses applicant1's city</li></h3>
+                <ul class="test-results hidden">
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>city property is properly accessed</li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <h2>Using object properties in expressions</h2>
+            <div class="requirement-block" id="9">
+                <h3 class="requirement">9. Replace the placeholder string with an expression that returns true if applicant1's age is greater than or equal to 18.</h3>
+                <ul class="test-results hidden">
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>isApplicant1Eligible is a boolean (verify that you used an expression)</li>
+                </ul>
+            </div>
+            <div class="requirement-block" id="10">
+                <h3 class="requirement">10. Using the stubbed out function, "isEligibleApplicant", write code that returns whether or not the applicant at least 18 years old.</h3>
+                <ul class="test-results hidden">
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>isEligibleApplicant returns a boolean</li>
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>isEligibleApplicant returns true if applicant is 18</li>
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>isEligibleApplicant returns false if applicant is 17</li>
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>isEligibleApplicant returns true if applicant is much older than 18</li>
+                </ul>
+            </div>
+            <div class="requirement-block" id="11">
+                <h3 class="requirement">11. Replace the placeholder string  with an expression that returns true if applicant1's programStatus is "Active".</h3>
+                <ul class="test-results hidden">
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>isApplicant1Active is a boolean (verify that you used an expression)</li>
+                </ul>
+            </div>
+            <div class="requirement-block" id="12">
+                <h3 class="requirement">12. Using the stubbed out function, "isActiveApplicant", write code that returns whether or not the applicant is active.</h3>
+                <ul class="test-results hidden">
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>isActiveApplicant returns a boolean</li>
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>isActiveApplicant returns true if applicant is active</li>
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>isActiveApplicant returns false if applicant is not active</li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <h2>Interacting with Arrays</h2>
+            <div class="requirement-block" id="13">
+                <h3 class="requirement">13. Given the following array, write code to access the first item</h3>
+                <ul class="test-results hidden">
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>firstVegetable is 'bok choy' (verify that you used bracket notation)</li>
+                </ul>
+            </div>
+            <div class="requirement-block" id="14">
+                <h3 class="requirement">14. Add 'cucumber' to vegetables using the .push array method.</h3>
+                <ul class="test-results hidden">
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>vegetables has 'cucumber' (verify that you used .push)</li>
+                </ul>
+            </div>
+            <div class="requirement-block" id="15">
+                <h3 class="requirement">15. Make a copy of an array using a for loop and the .push method. The loop has been created for you.</h3>
+                <ul class="test-results hidden">
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>copyArray works with vegetables array</li>
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>copyArray works with an empty array</li>
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>copyArray works with other arrays</li>
+                </ul>
+            </div>
+            <div class="requirement-block" id="16">
+                <h3 class="requirement">16. A baseball coach keeps track of runs scored in each inning. They want a function to calculate the total runs scored. Fill out runsScored with the correct logic!</h3>
+                <ul class="test-results hidden">
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>runsScored returns a number</li>
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>runsScored returns the sum of the array</li>
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>runsScored returns 0 if called with an empty array</li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <h2>Combining arrays and objects</h2>
+            <div class="requirement-block" id="17">
+                <h3 class="requirement">17. Given an array of applicants, return an array of eligible applicants.</h3>
+                <ul class="test-results hidden">
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>filterApplicantsByEligibility returns an array</li>
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>filterApplicantsByEligibility returns an array of only applicants that are eligible</li>
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>filterApplicantsByEligibility returns an empty array if called with an empty array</li>
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>filterApplicantsByEligibility returns an empty array if no applicants are eligible</li>
+                </ul>
+            </div>
+            <div class="requirement-block" id="18">
+                <h3 class="requirement">18. Given an array of applicants, return an array of active students.</h3>
+                <ul class="test-results hidden">
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>filterApplicantsByProgramStatus returns an array</li>
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>filterApplicantsByProgramStatus returns an array of only applicants that are active</li>
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>filterApplicantsByProgramStatus returns an empty array if called with an empty array</li>
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>filterApplicantsByProgramStatus returns an empty array if no applicants are active</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

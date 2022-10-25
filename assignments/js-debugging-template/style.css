@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #EEEEEE;
+  }
+  
+  h3 {
+    color: #F78D34;
+    margin: 1rem 0;
+  }
+  
+  button {
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+  }
+  
+  input {
+    border: 1px solid transparent;
+    padding: .175rem .25rem;
+    border-radius: 5px;
+  }
+  
+  span {
+    margin-right: 10px;
+  }
+  
+  td {
+    width: 25px;
+    height: 25px;
+    font-family: monospace;
+    font-weight: bold;
+  }
+  
+  button {
+    background-color: transparent;
+    border: 1px solid currentColor;
+    transition: color .3s ease-out, background-color .3s ease-out;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+  }
+  
+  .centered {
+    text-align: center;
+    color: #1B3E77;
+  }
+  
+  .table-complete {
+    border: 5px solid black;
+    margin: 2rem;
+    padding: 1.25rem;
+    text-align: center;
+  }
+  
+  .icon {
+    display: inline-block;
+  }
+  
+  .error {
+    border: 2px solid red;
+  }
+  
+  .fa {
+    color: #1B3E77
+  }
+  
+  .fa-trash-alt {
+    color: red;
+  }
+  
+  button:hover, .fa:hover {
+    cursor: pointer;
+  }
+  
+  .container > div {
+    border-right: 1px solid grey;
+    min-width: 350px;
+    padding: 2rem;
+  }
+  
+  #create {
+    margin-top: 1rem;
+  }
+  
+  #create:hover {
+    background-color: #F3BF64;
+    border-color: #F3BF64;
+    color: white;
+  }
+  
+  #next-word-list {
+    list-style: none;
+  }
