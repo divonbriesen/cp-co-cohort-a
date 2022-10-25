@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Fundamentals Exercise</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./images/icon.png">
+    <script src="index.js" defer></script>
+    <script src="tests.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>JS Fundamentals Exercise</h1>
+        <div><img src="./images/logo.png" alt="Catalyte Logo" /></div>
+    </header>
+    <main>
+        <section>
+            <h2>Instructions</h2>
+            <p>Follow the instructions in <em>index.js</em> to complete this exercise. As you make changes, make sure to <em>save your file and refresh this page</em></p>
+            <p>The following sections show the results of your work. Make sure everything has a &#10004; before submitting! If you see a &#10060;, then that requirement is not met. Click the Test button to see the results. If you see any test cases without a &#10004; or an &#10060;, it means you have an Error. Open your console to see more information.</p>
+            <button class="submit">Test</button>
+        </section>
+        <section>
+            <h2>Variable Creation</h2>
+            <div class="requirement-block" id="1">
+                <h3 class="requirement">1. Declare a variable named "tree". Use a keyword that allows reassignment, but not redeclaration</h3>
+                <ul class="test-results hidden">
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>tree is declared</li>
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>tree is created using the correct keyword</li>
+                </ul>
+            </div>
+            <div class="requirement-block" id="2">
+                <h3 class="requirement">2. Assign a value of 'Oak' to the tree variable</h3>
+                <ul class="test-results hidden">
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>tree is declared</li>
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>tree is a string with value of 'Oak'</li>
+                </ul>
+            </div>
+            <div class="requirement-block" id="3">
+                <h3 class="requirement">3. Initialize a constant variable named "alaskaStateFlower", and assign it the value of 'Forget-me-not'</h3>
+                <ul class="test-results hidden">
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>alaskaStateFlower is declared</li>
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>alaskaStateFlower is a string with value of 'Forget-me-not'</li>
+                </ul>
+            </div>
+            <div class="requirement-block" id="4">
+                <h3 class="requirement">4. Initialize a variable named "numberOfChoice" with any number</h3>
+                <ul class="test-results hidden">
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>numberOfChoice is declared</li>
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>numberOfChoice is a number</li>
+                </ul>
+            </div>
+            <div class="requirement-block" id="5">
+                <h3 class="requirement">5. Initialize a variable named "binaryChoice" with any boolean</h3>
+                <ul class="test-results hidden">
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>binaryChoice is declared</li>
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>binaryChoice is a boolean</li>
+                </ul>
+            </div>
+            <div class="requirement-block" id="6">
+                <h3 class="requirement">6. Assign defaultVariableValue to have the string representation of JavaScript's default variable value</h3>
+                <ul class="test-results hidden">
+                    <li><span class="failure-icon">&#10060; Choices are ["string", "number", "boolean", "null", "undefined"]</span><span class="success-icon">&#10004;</span>defaultVariableValue matches the string representation of JavaScript's default variable value</li>
+                </ul>
+            </div>
+            <div class="requirement-block" id="7">
+                <h3 class="requirement">7. Assign lackOfValue to be the data type that a developer should assign when a value is not known ahead of time. Your answer should not be a string</h3>
+                <ul class="test-results hidden">
+                    <li><span class="failure-icon">&#10060; Choices are ["string", 42, true, null, undefined]</span><span class="success-icon">&#10004;</span>lackOfValue is the correct data type</li>
+                </ul>
+            </div>
+            <div class="requirement-block" id="8">
+                <h3 class="requirement">8. What would happen if you tried to re-assign alaskaStateFlower to 'Magnolia'? Uncomment the variable that is correct</li></h3>
+                <ul class="test-results hidden">
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>the correct outcome was selected</li>
+                </ul>
+            </div>
+            <div class="requirement-block" id="9">
+                <h3 class="requirement">9. Create a constant variable named operandTwo with any number</h3>
+                <ul class="test-results hidden">
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>operandTwo is a number</li>
+                </ul>
+            </div>
+            <div class="requirement-block" id="10">
+                <h3 class="requirement">10. Create a variable named "product" and assign it to the value of the "numberOfChoice" variable times the "operandTwo" variable</h3>
+                <ul class="test-results hidden">
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>product is numberOfChoice times operandTwo</li>
+                </ul>
+            </div>
+            <div class="requirement-block" id="11">
+                <h3 class="requirement">11. Create a variable named "productOutput" and give it a string value with the following sentence: "The product is: answer_here", ensuring that answer_here is your product variable. Do not include punctuation at the end of the string </h3>
+                <ul class="test-results hidden">
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>productOutput string is properly formatted</li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <h2>Type Conversion</h2>
+            <div class="requirement-block" id="12">
+                <h3 class="requirement">12. 3.14159 + 6.022</h3>
+                <ul class="test-results hidden">
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>data type is correct</li>
+                </ul>
+            </div>
+            <div class="requirement-block" id="13">
+                <h3 class="requirement">13. -10 + '5'</h3>
+                <ul class="test-results hidden">
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>data type is correct</li>
+                </ul>
+            </div>
+            <div class="requirement-block" id="14">
+                <h3 class="requirement">14. '-10' + 5</h3>
+                <ul class="test-results hidden">
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>data type is correct</li>
+                </ul>
+            </div>
+            <div class="requirement-block" id="15">
+                <h3 class="requirement">15. -10 - '5'</h3>
+                <ul class="test-results hidden">
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>data type is correct</li>
+                </ul>
+            </div>
+            <div class="requirement-block" id="16">
+                <h3 class="requirement">16. '-10' * 5</h3>
+                <ul class="test-results hidden">
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>data type is correct</li>
+                </ul>
+            </div>
+            <div class="requirement-block" id="17">
+                <h3 class="requirement">17. -10 / '5'</h3>
+                <ul class="test-results hidden">
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>data type is correct</li>
+                </ul>
+            </div>
+            <div class="requirement-block" id="18">
+                <h3 class="requirement">18. -10 * 'a1'</h3>
+                <ul class="test-results hidden">
+                    <li><span class="failure-icon">&#10060;</span><span class="success-icon">&#10004;</span>data type is correct</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
